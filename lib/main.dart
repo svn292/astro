@@ -31,10 +31,10 @@ class MyApp extends StatelessWidget {
 class BodyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    systemNavigationBarColor: Colors.black, // navigation bar color
-    statusBarColor: Colors.black, // status bar color
-  ));
+   // SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+   // systemNavigationBarColor: Colors.black, // navigation bar color
+   // statusBarColor: Colors.black, // status bar color
+  //));
     return Container(
       decoration: new BoxDecoration(color: Colors.red),
       child: SafeArea(
